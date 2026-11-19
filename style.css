@@ -42,13 +42,11 @@ header {
 .logo {
     width: 110px;
     height: 50px;
+    font-size: 1.8rem;
     border: 3px solid black;
     padding: 5px;
     background-color: #777777;
     text-align: center;
-}
-h1 {
-    font-size: 1.8rem;
 }
 .btn {
     width: 110px;
@@ -67,7 +65,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    gap: 20px;
     padding-top: 2%;
     width: 100%;
 }
@@ -105,6 +103,41 @@ p {
     font-size: 1rem;
     border: 1px solid black;
     padding: 5px;
-    padding-right: 350px;
+    padding-right: 340px;
+    background-color: #dddddd;
+}
+.mainsec-container {
+    border: 2px solid black;
     background-color: #bbbbbb;
+    width: 95%;
+    padding:30px;
+    display: flex;
+    justify-content: space-between;
+}
+.mainsec-items {
+    font-weight: bold;
+    display: flex; 
+    width: 70%;
+    flex-direction: column;
+    gap: 10px;
+}
+.mainsec-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    width: 30%;
+    border: 1px solid black;
+    background-color: #dddddd;
+}
+.img-card {
+    width: 100%;
+}
+.sidebar-card {
+    width: 25%;
 }
