@@ -49,12 +49,17 @@ header {
     text-align: center;
 }
 .btn {
-    width: 110px;
-    height: 50px;
+    margin-top: auto;
+    width: 100%;
+    height: 30px;
     font-weight: bold;
     border: 3px solid black;
     padding: 5px;
     background-color: #777777;
+}
+.btn-cta {
+    width: 110px;
+    height: 50px;
 }
 .btn-top {
     width: 100px;
@@ -96,21 +101,22 @@ h2 {
     font-size: 1.5rem;
     border: 3px solid black;
     padding: 5px;
-    padding-right: 40px;
     background-color: #777777;
+    width: 40%;
 }
 p {
     font-size: 1rem;
     border: 1px solid black;
     padding: 5px;
-    padding-right: 340px;
+    width: 100%;
     background-color: #dddddd;
 }
 .mainsec-container {
     border: 2px solid black;
     background-color: #bbbbbb;
     width: 95%;
-    padding:30px;
+    height: 0%;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -118,8 +124,10 @@ p {
     font-weight: bold;
     display: flex; 
     width: 70%;
+    gap: 20px;
     flex-direction: column;
-    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
 }
 .mainsec-cards {
     display: flex;
@@ -130,14 +138,30 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: 5px;
     padding: 15px;
+    height: 350px;
     width: 30%;
     border: 1px solid black;
-    background-color: #dddddd;
+}
+h4 {
+    font-size: 1.2rem;
+    border: 2px solid black;
+    padding: 5px;
+    width: 100%;
+    background-color: #bbbbbb;
+}
+.card p {
+    width: 100%;
+    padding: 5px;
 }
 .img-card {
     width: 100%;
+    height: 120px;
 }
 .sidebar-card {
-    width: 25%;
+    font-weight: bold;
+    height: 425px;
+    width: 27.5%;
+    background-color: #ffffff;
 }
